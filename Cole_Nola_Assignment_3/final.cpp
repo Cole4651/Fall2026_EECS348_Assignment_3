@@ -1,3 +1,20 @@
+/*
+ * Program:        EECS 348 Assignment 3 - CEO Email Prioritizer
+ * Description:    C++ program that stores a CEO's emails in a MaxHeap priority
+ *                 queue. Priority order: Boss, Subordinate,
+ *                 Peer, ImportantPerson, OtherPerson. Within a category, the
+ *                 newest date is read first. Commands: EMAIL, NEXT, READ, COUNT.
+ * Inputs:         Test file (path given as argv[1]) or stdin if no argument.
+ * Output:         Terminal output for the COUNT and NEXT commands.
+ * Collaborators:  None
+ * Other sources:  Gemini C++ initial code (basis for this program) and ChatGPT
+ *                 initial code (compared in the GenAI analysis)
+ * Author:         Cole Nola
+ * Creation date:  9/30/2026
+ * Revision date:  9/30/2026
+ * Revisions:  
+*/
+
 #include <iostream>
 #include <string>
 #include <vector>
